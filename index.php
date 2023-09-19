@@ -22,3 +22,14 @@ class Movie
         echo "Anno: " . $this->anno . "<br>";
     }
 }
+// OGGETTI MOVIE
+$movie1 = new Movie("Il Signore degli Anelli", "Peter Jackson", 2001);
+$movie2 = new Movie("Guardiani della Galassia", "James Gunn", 2014);
+
+// STAMPO INFO MOVIE
+echo "Film 1:<br>";
+$movie1->printInfo();
+echo "<br>";
+
+echo "Film 2:<br>";
+$movie2->printInfo();
