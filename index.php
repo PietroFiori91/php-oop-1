@@ -14,4 +14,11 @@ class Movie
         $this->regia = $regia;
         $this->anno = $anno;
     }
+    // METODO STAMPA INFO MOVIE
+    public function printInfo()
+    {
+        echo "Titolo: " . $this->titolo . "<br>";
+        echo "Regista: " . $this->regia . "<br>";
+        echo "Anno: " . $this->anno . "<br>";
+    }
 }
